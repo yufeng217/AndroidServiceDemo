@@ -35,6 +35,11 @@
             </intent-filter>
         </service>
         <service android:name="com.example.servicedemo.service.BindService" />
+
+        <activity
+            android:name="com.example.servicedemo.IntentServiceActivity"
+            android:label="@string/title_activity_intent_service" >
+        </activity>
     </application>
 
 </manifest>
