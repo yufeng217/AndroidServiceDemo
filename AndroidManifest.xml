@@ -35,6 +35,8 @@
             </intent-filter>
         </service>
         <service android:name="com.example.servicedemo.service.BindService" />
+        
+        <service android:name="com.example.servicedemo.service.IntentService" />
 
         <activity
             android:name="com.example.servicedemo.IntentServiceActivity"
