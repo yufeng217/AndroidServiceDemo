@@ -37,6 +37,7 @@
         <service android:name="com.example.servicedemo.service.BindService" />
         
         <service android:name="com.example.servicedemo.service.IntentService" />
+        <service android:name="com.example.servicedemo.service.NormalService" />
 
         <activity
             android:name="com.example.servicedemo.IntentServiceActivity"
